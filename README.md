@@ -49,13 +49,14 @@ The GitHub User Activity Tracker is a Node.js CLI application that fetches and d
 node github-user-activity.js SonaVarshney
 ```
 
-##Output:
+## Output:
 
-1) My GitHub Activity -
+1) **My GitHub Activity** -
    
 ![output_image](image.png)
 
-2) Linus Torvalds' GitHub Activity 😌 -
+2) **Linus Torvalds' GitHub Activity** 😌 -
+   
    ![image](https://github.com/user-attachments/assets/e673d12d-4d8c-4ebd-9fbf-3c810a86720b)
 
 
