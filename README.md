@@ -1,9 +1,11 @@
-````markdown
+
 # GitHub User Activity Tracker
 
 ## Overview
 
 The GitHub User Activity Tracker is a Node.js CLI application that fetches and displays the recent activity of a specified GitHub user. It uses the GitHub API to retrieve user events and formats the output using the [`chalk`](https://www.npmjs.com/package/chalk) library for enhanced readability.
+
+[Project Reference : GitHub User Activity](https://roadmap.sh/projects/github-user-activity)
 
 ## Features
 
@@ -24,7 +26,7 @@ The GitHub User Activity Tracker is a Node.js CLI application that fetches and d
    git clone https://github.com/your-username/github-user-activity-tracker.git
    cd github-user-activity-tracker
    ```
-````
+
 
 2. **Install dependencies**:
    ```sh
@@ -47,11 +49,15 @@ The GitHub User Activity Tracker is a Node.js CLI application that fetches and d
 node github-user-activity.js SonaVarshney
 ```
 
-Output:
+##Output:
 
-```
-![alt text](image.png)
-```
+1) My GitHub Activity -
+   
+![output_image](image.png)
+
+2) Linus Torvalds' GitHub Activity 😌 -
+   ![image](https://github.com/user-attachments/assets/e673d12d-4d8c-4ebd-9fbf-3c810a86720b)
+
 
 ## Code Explanation
 
@@ -74,7 +80,7 @@ Output:
 
 ### Error Handling
 
-- Handles errors such as user not found (404) and other request failures(status code not OK).
+- Handles errors such as user not found (404) and other request failures (status code not OK).
 - Uses `chalk` to display error messages in red.
 
 ## Dependencies
@@ -82,7 +88,3 @@ Output:
 - [`https`](https://nodejs.org/api/https.html): Node.js built-in module for making HTTPS requests.
 - [`chalk`](https://www.npmjs.com/package/chalk): Library for styling terminal string output.
 
-```
-
-
-```
