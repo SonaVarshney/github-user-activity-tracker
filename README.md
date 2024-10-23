@@ -19,6 +19,15 @@ The GitHub User Activity Tracker is a Node.js CLI application that fetches and d
 - Node.js (version 12 or higher)
 - npm (Node Package Manager)
 
+## API Used
+
+This project utilizes the GitHub REST API to fetch user activity data. Specifically, it makes use of the following endpoint:
+
+- **User Events**: 
+  - **Endpoint**: `GET /users/:username/events`
+  - **Description**: Retrieves the recent events performed by the specified GitHub user.
+  - **Documentation**: [GitHub REST API - Activity Events](https://docs.github.com/en/rest/activity/events?apiVersion=2022-11-28)
+
 ## Installation
 
 1. **Clone the repository**:
